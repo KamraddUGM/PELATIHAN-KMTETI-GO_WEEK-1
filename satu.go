@@ -9,7 +9,7 @@ func main() {
 	var pilihan int
 
 	fmt.Print("Masukkan suhu dalam Celcius: ")
-	fmt.Scan(&celcius)
+	fmt.Scanf(&celcius)
 
 	fmt.Println("Pilih konversi suhu:")
 	fmt.Println("1. Fahrenheit")
